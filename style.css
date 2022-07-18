@@ -1,0 +1,232 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1C1C1C;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+.introCard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1296px;
+}
+
+.card--background {
+    width: 550px;
+    height: 868px;
+    padding-top: 44px;
+    padding-left: 116px;
+    margin: 20px;
+    background: #23252C;
+}
+
+.profilePic {
+    width: 317px;
+    height: 317px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+
+/* Main Info section */
+.mainInfo {
+    padding: 22px 34px 0px 34px;
+    width: 317px;
+    height: 399px;
+    text-align: center;
+    font-family: Inter;
+    font-style: normal;
+}
+
+#mainInfoDark {
+    background: #1A1B21;
+}
+
+#mainInfoLight {
+    background: #F5F5F5;
+}
+
+#mainInfoDark > h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;    
+    color: #FFFFFF;
+}
+
+#mainInfoDark > h2 {
+    margin-top: 6px;
+    margin-bottom: 0px;
+    font-weight: normal;
+    font-size: 12.8px;
+    line-height: 15px;    
+    color: #F3BF99;
+}
+
+#mainInfoDark > p {
+    margin-top: 9px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #F5F5F5;
+}
+
+#mainInfoLight > h1 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;    
+    color: #2B283A;
+}
+
+#mainInfoLight > h2 {
+    margin-top: 6px;
+    margin-bottom: 0px;
+    font-weight: normal;
+    font-size: 12.8px;
+    line-height: 15px;    
+    color: #F47D27;
+}
+
+#mainInfoLight > p {
+    margin-top: 9px;
+    margin-bottom: 15px;
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #4A4E74;
+}
+
+
+/* Button section */
+.buttonGroup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.buttonSmall {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 115px;
+    height: 34px;
+    left: 151px;
+    top: 468px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.buttonLarge {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 34px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    flex-grow: 1;
+}
+
+#emailButton {
+    background: #FFFFFF;
+    border: 1px solid #D1D5DB;
+    box-sizing: border-box;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #374151;
+}
+
+#emailButton > img {
+    height: 12px;
+    margin-right: 8px;
+}
+
+#linkedInButton {
+    background: #5093E2;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+#LinkedInButton > img {
+    height: 14px;
+    margin-right: 8px;
+}
+
+
+/* Blurb section */
+.blurb {
+    margin-top:20px;
+    width: 247px;
+    height: 201px;
+    text-align: left;
+    font-family: Inter;
+    font-style: normal;
+}
+
+.blurb > h2 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.blurb > p {
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 150%;
+}
+
+#blurbDark > h2 {
+    color: #F5F5F5;
+}
+
+#blurbDark > p {
+    color: #DCDCDC;
+}
+
+#blurbLight > h2 {
+    color: #2B283A;
+}
+
+#blurbLight > p {
+    color: #4A4E74;
+}
+
+
+/* Social Media section */
+.socialMedia {
+    padding-top: 18px;
+    display: flex;
+    justify-content: center;
+    width: 317px;
+    height: 64px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+#socialMediaDark {
+    background: #161619;
+}
+
+#socialMediaLight {
+    background: #D5D4D8;
+}
+
+.socialMedia > img {
+    height: 28px;
+}
